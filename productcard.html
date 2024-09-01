@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+.product-card {
+    max-width: 580px;
+    position: relative;
+    box-shadow: 0 2px 5px #333;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.spacing {
+    margin: 10px;
+}
+
+.badge {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background: #de0404;
+    color: #BCFD4C;
+    padding: 3px 10px;
+}
+
+.product-thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 50px;
+   /*  background: #ffffff; */
+    background-color: #43e100;
+    box-shadow: 0 2px 5px #333;
+}
+
+.product-thumb img {
+    width: 580px;
+    max-width: 580px;
+    height: auto; 
+}
+
+
+.product-details {
+    padding: 30px;
+}
+
+.product-category {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #9DAAF2;
+    margin-bottom: 18px;
+}
+
+.product-details h4 a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #00ABE1;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+    color: #F52544;
+}
+
+.product-details p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    color: #99DDFF;
+}
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #99DDFF;
+    padding-top: 20px;
+}
+
+.product-bottom-details div {
+    float: left;
+    width: 50%;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #F52544;
+    font-weight: 600;
+}
+
+.product-price small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.product-links {
+    text-align: right;
+}
+
+.product-links a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #5CE0D8;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.product-links a:hover {
+    color: #F52544;
+}
+@media (max-width:650px){
+    .product-thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  
+    background-color: #43e100;
+
+}
+
+.product-thumb img {
+    width:auto;
+    max-width: 100%;
+    height: auto; 
+}
+}
+    </style>
+</head>
+
+<body>
+   
+        <div class="product-card spacing">
+            <div class="badge">New Product</div>
+            <div class="product-thumb">
+                <img src="./assets/images/gallery-2.jpg">
+            </div>
+            <div class="product-details">
+                <span class="product-category">T-Shirt</span>
+                <h4><a href="#">New T-Shirt For Man</a></h4>
+                <p>New Import T-Shirt For Man Very Rare Collection, If You Want Order Right Now</p>
+                <div class="product-bottom-details">
+                    <div class="product-price"><small>$15.10</small>$7.99</div>
+                    <div class="product-links">
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                        <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- ICONS -->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+
+</html>
