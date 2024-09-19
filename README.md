@@ -1,13 +1,6 @@
 # Honey-Bee One-Page Website
 
-**Project Banner**  
-![1](https://github.com/user-attachments/assets/fbec4daf-0aa4-4aa3-8228-c3146d3a065a)
-
-## Overview
-
 The **Honey-Bee** website is a responsive one-page project built using **HTML**, **CSS**, and **Bootstrap**. This project demonstrates a modern and elegant design, suitable for small business websites or personal portfolios.
-
----
 
 ## Technologies Used
 
@@ -16,15 +9,14 @@ The **Honey-Bee** website is a responsive one-page project built using **HTML**,
 - Bootstrap 5
 - Responsive Design
 
----
+  **Project Banner**  
+![1](https://github.com/user-attachments/assets/fbec4daf-0aa4-4aa3-8228-c3146d3a065a)
 
 ## Features
 
 - **Responsive Layout**: Optimized for various screen sizes, including mobile, tablet, and desktop.
 - **Bootstrap Components**: Using Bootstrap's grid system for a fluid, responsive design.
 - **Modern Design**: Clean, minimalistic, and visually appealing layout.
-
----
 
 ## Screenshots
 
