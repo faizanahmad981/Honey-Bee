@@ -56,6 +56,6 @@ To view or modify this project:
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/honey-bee.git
+   git clone (https://github.com/faizanahmad981/Honey-Bee.git)
 2.  cd honey-bee
    
